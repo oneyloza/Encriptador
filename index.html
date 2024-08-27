@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <header>
+        <img src="/imagenes/Logo.png" alt="logo" class="logo">
+    </header>
+    <main>
+        <section>
+              <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa texto aquí"></textarea>
+              <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+              </div>
+              <div class="botones">
+                <button class="btn-encriptador">Encriptador</button>
+                <button class="btn-desencriptador">Desencriptador</button>        
+              </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="piede-de-pag">
+        <p>Desarrollado por Dorian Loza</p>
+        <p>Año de elaboración 2024</p>
+        <p>Desarrollado bajo la orientación de ALURA LATAN</p>
+    </footer>
+<script src="app.js"></script>
+
     
 </body>
 </html>

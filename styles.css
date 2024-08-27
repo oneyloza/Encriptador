@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background-color: #f3f5fc;
+    font-family: "inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.logo{
+padding-top: 10px;
+margin-left: 10px;
+width: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 0px;   
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 10px;
+    text-transform: lowercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+::placeholder{
+    color: #0a3871;
+}
+
+    .text-area:focus{
+        outline: none;
+    }
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptador{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptador{
+    background: #d8dfe8;
+    border: 1PX solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.copiar{
+    border: 1PX solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    position: absolute;
+    width: 336px;
+    top: 530px;
+}
+
+.piede-de-pag{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    font 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f5fc;
+}
