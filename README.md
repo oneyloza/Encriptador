@@ -13,7 +13,7 @@ Autores del proyecto.
 
 Elementos principales de la página
 
-Título de su sitio web
+Título del sitio web
 Campo para el texto que va a ser encriptado/desencriptado
 Un botón para encriptar
 Un botón para desencriptar
